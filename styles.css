@@ -22,7 +22,7 @@ html, body{
   display: block;
   color: #333;
   text-align: center;
-  padding: 1.9rem 1.2rem;
+  padding: 1.7rem 1.3rem;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -44,8 +44,8 @@ html, body{
   font-weight: 550;
   color: orange;
   text-align: center;
-  padding-bottom: 14rem;
-  
+  padding-bottom: 16rem;
+  padding-top: 1em;
 }
 
 #date{
@@ -59,15 +59,11 @@ html, body{
 #ms{
   color: red;
 }
-#name{
-  padding-top: 0.7rem;
-  text-align: center;
-}
 
 #vaxTime{
   color: white;
   padding-left: 7rem;
-  padding-top: 10rem;
+  padding-top: 16rem;
   
   
 }
