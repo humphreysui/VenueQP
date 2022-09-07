@@ -27,14 +27,14 @@ function displayTS() {
   ts.innerHTML = h + "时" + m + "分" + s + "秒";
    
 }
-setInterval(displayTS, 1000);
+/* setInterval(displayTS, 1000) */;
 // display millisec
 function displayMS() {
   const d = new Date();
   const mis = d.getMilliseconds();
   ms.innerHTML = mis;
 }
-setInterval(displayMS, 1);
+/* setInterval(displayMS, 1); */
 // display vax date
 const displayVaxDate = () => {
   const d = new Date();
@@ -45,8 +45,8 @@ const displayVaxDate = () => {
   return year + "-" + month + "-" + day;
 }
 // add into to html
-date.innerHTML = displayDate();
-vaxTime.innerHTML = displayVaxDate();
+/* date.innerHTML = displayDate();
+vaxTime.innerHTML = displayVaxDate(); */
 
 
 

@@ -30,6 +30,10 @@ function displayVenue() {
   console.log(selectedVenue);
   venueName.innerHTML = `<p>${selectedVenue}<p>`;
   venueDisplay.style.visibility = 'hidden';
+  setInterval(displayTS, 1000);
+  setInterval(displayMS, 1);
+  date.innerHTML = displayDate();
+  vaxTime.innerHTML = displayVaxDate();
 }
 
  
