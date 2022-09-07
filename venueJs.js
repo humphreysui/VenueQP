@@ -32,7 +32,7 @@ function displayTS() {
 function displayMS() {
   const d = new Date();
   const mis = d.getMilliseconds();
-  ms.innerHTML = mis;
+  ms.innerHTML = `${mis} <span class='mil'>毫秒</span>`;
 }
 /* setInterval(displayMS, 1); */
 // display vax date
