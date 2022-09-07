@@ -22,7 +22,7 @@ html, body{
   display: block;
   color: #333;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -66,8 +66,8 @@ html, body{
 
 #vaxTime{
   color: white;
-  padding-left: 6rem;
-  padding-top: 12rem;
+  padding-left: 5rem;
+  padding-top: 10rem;
   font-size: 1.1rem;
   
 }
