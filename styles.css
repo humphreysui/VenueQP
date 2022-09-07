@@ -22,7 +22,7 @@ html, body{
   display: block;
   color: #333;
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.4rem;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -37,14 +37,14 @@ html, body{
 #location{
   display: flex;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 #venueName{
   font-size: larger;
   font-weight: 550;
   color: orange;
   text-align: center;
-  padding-bottom: 20rem;
+  padding-bottom: 18rem;
 }
 
 #date{
