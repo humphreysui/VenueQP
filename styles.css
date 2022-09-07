@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+ 
+/* venue code page*/
+.container img{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+#location{
+  display: flex;
+  justify-content: center;
+  padding-top: 9rem;
+}
+#venueName{
+  font-size: larger;
+  font-weight: 550;
+  color: orange;
+  text-align: center;
+  padding-bottom: 20rem;
+}
+
+#date{
+  color:rgb(25, 154, 235);
+  text-align: center;
+}
+.timeSec{
+  color: rgb(25, 154, 235);
+  text-align: center;
+}
+#ms{
+  color: red;
+}
+#name{
+  padding-top: 0.7rem;
+  text-align: center;
+}
+
+#vaxTime{
+  color: white;
+  padding-left: 7rem;
+  padding-top: 15.4rem;
+  font-size: 1.1rem;
+  
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html,body{
+    font-size: 14px;
+  }
+   
+
+}
