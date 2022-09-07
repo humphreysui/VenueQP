@@ -37,7 +37,7 @@ html, body{
 #location{
   display: flex;
   justify-content: center;
-  padding-top: 9rem;
+  padding-top: 5rem;
 }
 #venueName{
   font-size: larger;
