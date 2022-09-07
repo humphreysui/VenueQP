@@ -22,7 +22,7 @@ html, body{
   display: block;
   color: #333;
   text-align: center;
-  padding: 2rem 1.3rem;
+  padding: 2rem 1.2rem;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -44,8 +44,8 @@ html, body{
   font-weight: 550;
   color: orange;
   text-align: center;
-  padding-bottom: 16rem;
-  padding-top: 1em;
+  padding-bottom: 14rem;
+  padding-top: 2em;
 }
 
 #date{
