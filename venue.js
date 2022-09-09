@@ -67,7 +67,7 @@ const displayVaxDate = () => {
 function displayVenue() {
   var selectedVenue = document.getElementById("venueList").value;
   var typedVenue = document.getElementById("vname").value;
-
+  console.log('select:' + selectedVenue + ' and typed:' + typedVenue);
  
 
   if (selectedVenue != '' && selectedVenue != 'Choose here' && typedVenue == ''){
@@ -80,7 +80,7 @@ function displayVenue() {
     console.log('selected only');
   }
 
-  else if (typedVenue != '' && !selectedVenue){
+  else if (typedVenue != '' && (selectedVenue == '' || selectedVenue == 'Choose here')){
     venueName.innerHTML = `<p>${typedVenue}<p>`;
     venueDisplay.style.visibility = 'hidden';
     setInterval(displayTS, 1000);
@@ -97,9 +97,5 @@ function displayVenue() {
     alert("You can only select or type one at a time!")
   }
    
-    
-   
-  
-  // TODO: need logic to choose from names
 }
 
