@@ -70,7 +70,7 @@ function displayVenue() {
 
  
 
-  if (selectedVenue != '' && typedVenue == ''){
+  if (selectedVenue != '' && selectedVenue != 'Choose here' && typedVenue == ''){
     venueName.innerHTML = `<p>${selectedVenue}<p>`;
     venueDisplay.style.visibility = 'hidden';
     setInterval(displayTS, 1000);
