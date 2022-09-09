@@ -10,50 +10,53 @@
 </head>
 
 <body>
+  <!-- bottom nav -->
   <nav class="navbar">
     <a href="./citizen.html">市民码</a>
     <a href="./index.html">省心办</a>
     <a href="./index.html">通行证</a>
     <a href="./index.html">看我的</a>
   </nav>
+
+  <!-- select and input section -->
+  <div id="location" class="dropdown">
+    <label for="venueList">Choose Venue Name:</label>
+    <select name="venueList" id="venueList">
+      <option></option>
+      
+      <!-- auto display content here -->
   
+    </select>
+    
+    <form class="vnameInput">
+      <label for="vname">Venue Name (in Chinese):</label><br>
+      <input type="text" id="vname" name="vname">
+    </form>
+
+    <button id="btn" onclick="displayVenue()">Show Code</button>
+  </div>
+
+  <!-- main display -->
   <main class="container">
 
     <img src="./images/newbackground.jpg" alt="background image">
 
-     
-    <div id="location" class="dropdown">
-          
-      <select name="venueList" id="venueList">
-        <!-- <option>Choose a Venue Name</option> -->
-        <option value="二号线师范大学地铁站">SNU (SubwayLine2)</option>
-        <option value="二号线辽宁大学地铁站">Liao Da (SubwayLine2)</option>
-        <option value="一号线重工街地铁站">Zhong Gong Jie (SubwayLine1)</option>
-        <!-- auto display content here -->
-        
-      </select><br>
-      <button id="btn" onclick="displayVenue()">Update</button>
-    </div>
     <!-- display venue here -->
-    <div id="venueName">
-
-    </div>
+    <div id="venueName"></div>
     <div class="timewise">
       <div id="date"></div>
       <div class="timeSec">
         <span id="ts"></span>
         <span id="ms"></span>
       </div>
-      
-      <!-- <div id="name">namevalue</div> -->
-      
       <div id="vaxTime"></div>
     </div>
     
 
   </main>
+
 </body>
-<script src="indexJs.js"></script>
-<script src="venueJs.js"></script>
+<script src="data.js"></script>
+<script src="venue.js"></script>
 
 </html>
